@@ -71,9 +71,7 @@ function initializeMap() {
 
         // Function to fetch weather data and update UI
         function fetchWeather(lat, long) {
-            // const apiKey = process.env.apiKey;
             const apiKey = 'your openweather api key';
-            // const apiKey = '283b062214524797a0163cd685481430';
             const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=${apiKey}`;
             
             fetch(apiUrl)
