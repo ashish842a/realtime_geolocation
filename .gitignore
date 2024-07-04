@@ -1,0 +1,51 @@
+# Dependency directories
+/node_modules
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing session data
+sessions
+
+# Environment variables file
+.env
+
+# dotenv environment variables file
+.env.local
+.env.*.local
+
+# yarn v2
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.pnp.*
+
+# parcel-bundler
+.cache/
+dist/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# NestJS
+dist/
+node_modules/
+
+# Babel cache
+.cache
+
+# Cypress
+.cypress/
